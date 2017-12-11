@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyeesoft.aliyun.sdk", "Gyeesoft.aliyun.sdk\Gyeesoft.aliyun.sdk.csproj", "{858E05A3-57E9-45DA-81D2-A570471F6E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858E05A3-57E9-45DA-81D2-A570471F6E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858E05A3-57E9-45DA-81D2-A570471F6E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858E05A3-57E9-45DA-81D2-A570471F6E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858E05A3-57E9-45DA-81D2-A570471F6E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27841961-FAF1-4DE0-8E18-3AD348BB18EA}
+	EndGlobalSection
+EndGlobal

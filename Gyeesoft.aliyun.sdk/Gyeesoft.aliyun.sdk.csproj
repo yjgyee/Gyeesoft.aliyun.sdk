@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Gyeesoft.aliyun.sdk</PackageId>
+    <Version>1.0.3</Version>
+    <Authors>gyeesoft</Authors>
+    <Company>吉易软件</Company>
+    <Description>仅供自己使用的.net standard2.0封装的aliyun sdk,其内部代码与aliyun.oss.sdk完全一致, 修改一些api兼容性bug</Description>
+    <PackageReleaseNotes>仅供自己使用的.net standard2.0封装的aliyun sdk,其内部代码与aliyun.oss.sdk完全一致, 修改一些api兼容性bug
+1. var internalMethodName = "AddWithoutValidate";
+2.HmacSHA1 .net standard 2.0下写法改变</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <AssemblyName>Gyeesoft.aliyun.sdk</AssemblyName>
+    <RootNamespace>Aliyun.OSS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
